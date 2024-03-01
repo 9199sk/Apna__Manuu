@@ -40,6 +40,11 @@ ul li a:hover{
     font-size: 19px;
 
 }
+.menu-toggle {
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+}
 .firstimg{
     border: 2px solid black;
     text-align: center;
