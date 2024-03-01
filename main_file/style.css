@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(247, 202, 0);
+}
+body{
+    background-color: rgb(220, 220, 192);
+}
+nav{
+    background-color: rgb(32, 32, 65);
+    display: flex;
+    justify-content: space-around;
+    height:60px;
+    align-items: center;
+    
+    
+}
+.first{
+    color: rgba(12, 255, 255, 0.921);
+    font-size: 20px;
+   
+    
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li {
+    margin: 0px 30px;
+    list-style: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+ul li a:hover{
+    color: red;
+    transition: .2s;
+    font-size: 19px;
+
+}
+.firstimg{
+    border: 2px solid black;
+    text-align: center;
+    height: 450px;
+    width: 60%;
+    justify-content: center;
+    margin:70px auto;
+    background-image: url(study.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.secondpart{
+ margin-left: 40px;
+ padding-top: 20px;
+ 
+    
+}
+.secondpart p{
+    color: black;
+    padding-top: 10px;
+    line-height: 30px;
+}
+.webname{
+    color: rgb(0, 50, 70);
+}
+
+.thirdpart{
+    margin-left: 80px;
+    padding-top: 20px;
+}
+.myteam {
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-top: 20px;
+}
+table{
+    width: 60%;
+    border-collapse: collapse ;
+}
+table th ,td{
+    border: 1px solid black ;
+    color: rgb(0, 0, 0);
+    
+}
+th,td{
+    padding: 8px;
+}
+
+footer h5{
+    
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: rgb(32, 32, 65);
+        
+    }
+
+    .nav-list.show {
+        display: flex;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+    .firstimg{
+        border: 2px solid black;
+        text-align: center;
+        height: 200px;
+        width:80%;
+        justify-content: center;
+        margin:70px auto;
+        background-image: url(study.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+}
