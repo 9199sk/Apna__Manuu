@@ -76,14 +76,12 @@ ul li a:hover{
     margin-left: 80px;
     padding-top: 20px;
 }
-.myteam {
-    margin-left: 20px;
+caption {
     color: rgb(0, 0, 0);
     font-size: 20px;
     padding-top: 20px;
 }
 table{
-    width: 60%;
     border-collapse: collapse ;
 }
 table th ,td{
@@ -136,4 +134,10 @@ footer h5{
         background-size: cover;
         background-position: center center;
     }
+
+    .thirdpart{
+        margin-left: 0px;
+         padding-top: 20px;
+    }
+    
 }
