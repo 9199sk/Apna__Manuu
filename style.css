@@ -15,6 +15,10 @@ nav{
     
     
 }
+header{
+    position: sticky;
+    top: 0px;
+}
 .first{
     color: rgba(12, 255, 255, 0.921);
     font-size: 20px;
@@ -93,6 +97,9 @@ th,td{
     padding: 8px;
 }
 
+
+
+
 footer h5{
     
     text-align: center;
@@ -138,6 +145,11 @@ footer h5{
     .thirdpart{
         margin-left: 0px;
          padding-top: 20px;
+    }
+    
+    .thirdpart h1{
+        font-size:25px;
+        color: rgb(10, 77, 77);
     }
     
 }
